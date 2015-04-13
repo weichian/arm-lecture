@@ -7,7 +7,7 @@
 
 	.global fibonacci
 	.type fibonacci, function
-
+@fibonacci recursive
 fibonacci:
 	push {r3, r4, r5, lr}
         
